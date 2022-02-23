@@ -1,3 +1,3 @@
 module go.seankhliao.com/ga4mp
 
-go 1.18
+go 1.17

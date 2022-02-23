@@ -167,8 +167,8 @@ func (r Request) validate() error {
 }
 
 type Event struct {
-	Name   string         `json:"name"`
-	Params map[string]any `json:"params"`
+	Name   string                 `json:"name"`
+	Params map[string]interface{} `json:"params"`
 }
 
 func (e Event) validate() error {
